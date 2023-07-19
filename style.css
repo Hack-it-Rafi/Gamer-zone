@@ -537,8 +537,11 @@ footer{
         height: auto;
     }
     .icon-cards{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "c1 c1 c2 c2 c3 c3"
+                             "c4 c4 c5 c5 c6 c6"
+                             "c7 c7 c8 c8 c9 c9";
         row-gap: 20px;
     }
     
@@ -607,8 +610,11 @@ footer{
         font-size: 2.1rem;
     }
     .icon-cards{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "c1 c1 c2 c2 c3 c3"
+                             "c4 c4 c5 c5 c6 c6"
+                             "c7 c7 c8 c8 c9 c9";
         row-gap: 20px;
     }
 
