@@ -299,15 +299,46 @@ header nav {
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 150px;
+    height: 220px;
 }
 .icon-cards{
     width: 80%;
+    height: 90%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    /* grid-template-rows: repeat(1, 1fr); */
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "c1 c1 c2 c2 c3 c3 c4 c4 c5 c5"
+                         ". c6 c6 c7 c7 c8 c8 c9 c9 .";
     column-gap: 20px;
     flex-wrap: wrap;
     row-gap: 50px;
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c4{
+    grid-area: c4;
+}
+.c5{
+    grid-area: c5;
+}
+.c6{
+    grid-area: c6;
+}
+.c7{
+    grid-area: c7;
+}
+.c8{
+    grid-area: c8;
+}
+.c9{
+    grid-area: c9;
 }
 .special-card{
     /* margin-left: 100px; */
@@ -503,12 +534,14 @@ footer{
 
     .icon-cards-container{
         margin-top: 50px;
+        height: auto;
     }
     .icon-cards{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         row-gap: 20px;
     }
+    
     .icon-card img{
         width: 20%;
     }
