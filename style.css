@@ -13,6 +13,11 @@
     color: #534C64;
     margin: 20px 0px;
 }
+.common-a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
 
 /* Nav Bar */
 header nav {
@@ -40,6 +45,9 @@ header nav {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+.nav-content a{
+    color: black;
 }
 
 .nav-content ul {
@@ -203,6 +211,7 @@ header nav {
 }
 .card-container{
     width: 100%;
+    /* height: 99%; */
     position: relative;
 }
 .overlay{
@@ -245,6 +254,7 @@ header nav {
 }
 .card img{
     /* position: absolute; */
+    height: 100%;
     width: 100%;
     border-radius: 10px;
 }
@@ -396,6 +406,9 @@ footer{
     /* font-size: 12px; */
     font-weight: 500;
     margin-bottom: 20px;
+}
+.footer-terms a{
+    color: rgba(255, 255, 255, 0.60);
 }
 .footer-p{
     color: rgba(255, 255, 255, 0.60);
