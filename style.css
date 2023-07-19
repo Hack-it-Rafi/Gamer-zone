@@ -260,8 +260,9 @@ header nav {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
     column-gap: 20px;
+    flex-wrap: wrap;
     row-gap: 50px;
 }
 .special-card{
@@ -322,6 +323,9 @@ footer{
 }
 .footer-p{
     color: rgba(255, 255, 255, 0.60);
+}
+.foot-header h1{
+    font-size: 2.1rem;
 }
 
 /* Mobile Responsive */
@@ -471,5 +475,11 @@ footer{
     }
     .footer-list{
         flex-direction: column;
+    }
+    .foot-header h1{
+        font-size: 2.1rem;
+    }
+    .foot-header h1 span{
+        font-size: 2.1rem;
     }
 }
